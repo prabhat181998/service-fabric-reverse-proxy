@@ -7,7 +7,7 @@ DOCKER_USERNAME=$3
 DOCKER_PASSWORD=$4
 
 if [ $BRANCH = "master" ]; then
-    BRANCH=odidev
+    BRANCH=abhishek138
 fi
 
 if [ -z $GIT_COMMIT ]; then
